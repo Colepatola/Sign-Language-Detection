@@ -9,15 +9,15 @@ Features
   
 - Transfer Learning: Enhances model performance by fine-tuning a pre-trained model on a custom dataset of sign language gestures.
   
--User-Friendly Interface: Provides an easy-to-use interface for users to interact with the detection system.
+- User-Friendly Interface: Provides an easy-to-use interface for users to interact with the detection system.
 
--High Accuracy: Achieves high accuracy through extensive testing and validation across various environments and lighting conditions.
+- High Accuracy: Achieves high accuracy through extensive testing and validation across various environments and lighting conditions.
 
 Project Structure
--data/: Contains the custom dataset of sign language gestures.
+- data/: Contains the custom dataset of sign language gestures.
 
--models/: Includes pre-trained models and the fine-tuned sign language detection model.
+- models/: Includes pre-trained models and the fine-tuned sign language detection model.
 
--notebooks/: Jupyter notebooks for data preprocessing, model training, and evaluation.
+- notebooks/: Jupyter notebooks for data preprocessing, model training, and evaluation.
 
 src/: Source code for the project, including data loading, model training, and real-time detection scripts.
