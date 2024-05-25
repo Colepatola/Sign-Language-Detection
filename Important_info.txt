@@ -1,0 +1,24 @@
+STEPS for running OBJECT DECECTION (2024)
+
+Step 1)
+Clone the repo from tensor flow, specifically the models folder
+
+Step 2)
+run python 3.8.19 in anaconda
+
+Step 3)
+cd to the research folder and before running the python command to train the AI, in the research folder, make sure to run "pip install -r requirements.txt" in the research folder because this will ensure we are using PyYaML 5.3.1
+
+Step 4) cd to the research folder and run these commands sequentially: 
+protoc object_detection/protos/*.proto --python_out=.
+cp object_detection/packages/tf2/setup.py .
+python -m pip install .
+
+Step 5)
+Open vs code, Go to augment.py and replace
+
+from tensorflow.python.keras.layers.preprocessing import image_preprocessing as image_ops
+
+With the import below
+
+from tensorflow.keras.preprocessing import image as image_ops
