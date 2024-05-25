@@ -20,4 +20,4 @@ Project Structure
 
 - notebooks/: Jupyter notebooks for data preprocessing, model training, and evaluation.
 
-src/: Source code for the project, including data loading, model training, and real-time detection scripts.
+- src/: Source code for the project, including data loading, model training, and real-time detection scripts.
